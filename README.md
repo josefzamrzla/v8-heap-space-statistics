@@ -2,17 +2,19 @@
 
 Heap space usage statistics for Node.js version 4.
 
-Like _require('v8').getHeapSpaceStatistics()_ in newer versions of Node - it returns statistics about the V8 heap spaces, i.e. the segments which make up the V8 heap.
+Like ```require('v8').getHeapSpaceStatistics()``` in newer versions of Node - it returns statistics about the V8 heap spaces, i.e. the segments which make up the V8 heap.
                                               
 The value returned is an array of objects containing the following properties:
 
-* space_name: <string>
-* space_size: <number>
-* space_used_size: <number>
-* space_available_size: <number>
-* physical_space_size: <number>
+* __space_name__: string
+* __space_size__: number
+* __space_used_size__: number
+* __space_available_size__: number
+* __physical_space_size__: number
 
-More info: https://nodejs.org/api/v8.html#v8_v8_getheapspacestatistics
+
+__More info__: https://nodejs.org/api/v8.html#v8_v8_getheapspacestatistics
+
 
 ### Sample usage
 
