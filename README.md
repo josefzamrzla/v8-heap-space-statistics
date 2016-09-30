@@ -16,8 +16,12 @@ The value returned is an array of objects containing the following properties:
 __More info__: https://nodejs.org/api/v8.html#v8_v8_getheapspacestatistics
 
 
-### Sample usage
+### Install
+```bash
+npm install v8-heap-space-statistics
+```
 
+### Sample usage
 ```javascript
 var getHeapSpaceStatistics = require('v8-heap-space-statistics');
 console.log(getHeapSpaceStatistics());
