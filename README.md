@@ -1,5 +1,7 @@
 # getHeapSpaceStatistics
 
+[![Build Status](https://travis-ci.org/josefzamrzla/v8-heap-space-statistics.svg?branch=master)](https://travis-ci.org/josefzamrzla/v8-heap-space-statistics)
+
 Heap space usage statistics for Node.js version 4.
 
 Like ```require('v8').getHeapSpaceStatistics()``` in newer versions of Node - it returns statistics about the V8 heap spaces, i.e. the segments which make up the V8 heap.
