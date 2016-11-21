@@ -1,6 +1,6 @@
 {
   "name": "v8-heap-space-statistics",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Heap space usage statistics for Node.js version 4",
   "main": "index.js",
   "engines": {
